@@ -178,7 +178,7 @@
 						<d_particle_mode>0</d_particle_mode>
 						<d_number_of_histories>100</d_number_of_histories>
 						<d_min_number_of_rendezvous>2</d_min_number_of_rendezvous>
-						<d_max_rendezvous_batch_size>1000000000</d_max_rendezvous_batch_size>
+						<d_max_rendezvous_batch_size>50</d_max_rendezvous_batch_size>
 						<d_min_number_of_batches_per_rendezvous>1</d_min_number_of_batches_per_rendezvous>
 						<d_max_batch_size>1000000000</d_max_batch_size>
 						<d_number_of_batches_per_processor>1</d_number_of_batches_per_processor>
@@ -1651,7 +1651,7 @@
 																							<d_snapshot_sampling_times>
 																								<count>1</count>
 																								<item_version>0</item_version>
-																								<item>4.83910022303462029e-02</item>
+																								<item>4.89852731116116047e-02</item>
 																							</d_snapshot_sampling_times>
 																						</BaseType>
 																						<moment_1_snapshots>
@@ -1713,7 +1713,7 @@
 																									<d_snapshot_sampling_times>
 																										<count>1</count>
 																										<item_version>0</item_version>
-																										<item>4.83910022303462029e-02</item>
+																										<item>4.89852731116116047e-02</item>
 																									</d_snapshot_sampling_times>
 																								</BaseType>
 																								<moment_1_snapshots>
@@ -3110,7 +3110,7 @@
 																				<moment_4 object_id="_86">
 																					<count>2</count>
 																					<item_version>0</item_version>
-																					<item>3.48855103659053668e+02</item>
+																					<item>3.48855103659053611e+02</item>
 																					<item>5.51262849159233603e+00</item>
 																				</moment_4>
 																			</d_estimator_total_bin_data>
@@ -3149,7 +3149,7 @@
 																						<moment_4 object_id="_90">
 																							<count>2</count>
 																							<item_version>0</item_version>
-																							<item>3.48855103659053668e+02</item>
+																							<item>3.48855103659053611e+02</item>
 																							<item>5.51262849159233603e+00</item>
 																						</moment_4>
 																					</second>
@@ -3229,7 +3229,7 @@
 																					<moment_2 object_id="_92">
 																						<count>1</count>
 																						<item_version>0</item_version>
-																						<item>8.11088473177738933e+01</item>
+																						<item>8.11088473177738791e+01</item>
 																					</moment_2>
 																				</BaseType>
 																				<moment_3 object_id="_93">
@@ -3264,7 +3264,7 @@
 																							<moment_2 object_id="_96">
 																								<count>1</count>
 																								<item_version>0</item_version>
-																								<item>8.11088473177738933e+01</item>
+																								<item>8.11088473177738791e+01</item>
 																							</moment_2>
 																						</BaseType>
 																						<moment_3 object_id="_97">
@@ -3294,7 +3294,7 @@
 																							<d_snapshot_sampling_times>
 																								<count>1</count>
 																								<item_version>0</item_version>
-																								<item>4.83910022303462029e-02</item>
+																								<item>4.89852731116116047e-02</item>
 																							</d_snapshot_sampling_times>
 																						</BaseType>
 																						<moment_1_snapshots>
@@ -3313,7 +3313,7 @@
 																						<item>
 																							<count>1</count>
 																							<item_version>0</item_version>
-																							<item>8.11088473177738933e+01</item>
+																							<item>8.11088473177738791e+01</item>
 																						</item>
 																					</moment_2_snapshots>
 																				</BaseType>
@@ -3356,7 +3356,7 @@
 																									<d_snapshot_sampling_times>
 																										<count>1</count>
 																										<item_version>0</item_version>
-																										<item>4.83910022303462029e-02</item>
+																										<item>4.89852731116116047e-02</item>
 																									</d_snapshot_sampling_times>
 																								</BaseType>
 																								<moment_1_snapshots>
@@ -3375,7 +3375,7 @@
 																								<item>
 																									<count>1</count>
 																									<item_version>0</item_version>
-																									<item>8.11088473177738933e+01</item>
+																									<item>8.11088473177738791e+01</item>
 																								</item>
 																							</moment_2_snapshots>
 																						</BaseType>
@@ -4723,7 +4723,7 @@
 				</px>
 			</d_simulation_completion_criterion>
 			<number_of_committed_histories>50</number_of_committed_histories>
-			<elapsed_time>5.59065630659461021e-02</elapsed_time>
+			<elapsed_time>5.58862481266260147e-02</elapsed_time>
 			<d_estimators class_id="195" tracking_level="0" version="0">
 				<count>2</count>
 				<bucket_count>3</bucket_count>

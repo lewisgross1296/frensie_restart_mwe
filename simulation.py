@@ -62,6 +62,7 @@ simulation_properties.setUnresolvedResonanceProbabilityTableModeOff()
 # Set the number of histories to run and the number of rendezvous
 simulation_properties.setNumberOfHistories( num_particles )
 simulation_properties.setMinNumberOfRendezvous( 2 )
+simulation_properties.setMaxRendezvousBatchSize( 50 )
 
 ##---------------------------------------------------------------------------##
 ## Set up the materials

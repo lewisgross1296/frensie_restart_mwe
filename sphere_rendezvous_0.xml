@@ -178,7 +178,7 @@
 						<d_particle_mode>0</d_particle_mode>
 						<d_number_of_histories>100</d_number_of_histories>
 						<d_min_number_of_rendezvous>2</d_min_number_of_rendezvous>
-						<d_max_rendezvous_batch_size>1000000000</d_max_rendezvous_batch_size>
+						<d_max_rendezvous_batch_size>50</d_max_rendezvous_batch_size>
 						<d_min_number_of_batches_per_rendezvous>1</d_min_number_of_batches_per_rendezvous>
 						<d_max_batch_size>1000000000</d_max_batch_size>
 						<d_number_of_batches_per_processor>1</d_number_of_batches_per_processor>
