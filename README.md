@@ -6,3 +6,6 @@ python simulation.py
 
 # restart the simulation with
 python restart_and_inc_num_histories.py --rendezvous_file=sphere_rendezvous_2.xml --num_extra_particles=1 --thread=4
+
+# generate results with
+python write_results.py --rendezvous_file=sphere_rendezvous_2.xml --NPS=100
