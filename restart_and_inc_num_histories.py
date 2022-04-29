@@ -32,8 +32,8 @@ if __name__ == "__main__":
 
     rendezvous_file = options.rendezvous_file
     threads = options.threads
-    wall_time = float(options.wall_time)
-    num_extra_particles = int(options.num_extra_particles)
+    wall_time = options.wall_time
+    num_extra_particles = options.num_extra_particles
 
 
 ##---------------------------------------------------------------------------##

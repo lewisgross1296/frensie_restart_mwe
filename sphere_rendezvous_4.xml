@@ -1655,7 +1655,7 @@
 																								<item_version>0</item_version>
 																								<item>4.85640321858227253e-02</item>
 																								<item>1.23760526068508625e-01</item>
-																								<item>1.68154977262020111e-01</item>
+																								<item>1.67460400145500898e-01</item>
 																							</d_snapshot_sampling_times>
 																						</BaseType>
 																						<moment_1_snapshots>
@@ -1729,7 +1729,7 @@
 																										<item_version>0</item_version>
 																										<item>4.85640321858227253e-02</item>
 																										<item>1.23760526068508625e-01</item>
-																										<item>1.68154977262020111e-01</item>
+																										<item>1.67460400145500898e-01</item>
 																									</d_snapshot_sampling_times>
 																								</BaseType>
 																								<moment_1_snapshots>
@@ -3322,7 +3322,7 @@
 																								<item_version>0</item_version>
 																								<item>4.85640321858227253e-02</item>
 																								<item>1.23760526068508625e-01</item>
-																								<item>1.68154977262020111e-01</item>
+																								<item>1.67460400145500898e-01</item>
 																							</d_snapshot_sampling_times>
 																						</BaseType>
 																						<moment_1_snapshots>
@@ -3396,7 +3396,7 @@
 																										<item_version>0</item_version>
 																										<item>4.85640321858227253e-02</item>
 																										<item>1.23760526068508625e-01</item>
-																										<item>1.68154977262020111e-01</item>
+																										<item>1.67460400145500898e-01</item>
 																									</d_snapshot_sampling_times>
 																								</BaseType>
 																								<moment_1_snapshots>
@@ -4771,7 +4771,7 @@
 				</px>
 			</d_simulation_completion_criterion>
 			<number_of_committed_histories>150</number_of_committed_histories>
-			<elapsed_time>1.82397870812565088e-01</elapsed_time>
+			<elapsed_time>1.82210943661630154e-01</elapsed_time>
 			<d_estimators class_id="195" tracking_level="0" version="0">
 				<count>2</count>
 				<bucket_count>5</bucket_count>
