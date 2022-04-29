@@ -18,7 +18,7 @@ import PyFrensie.Data.Native as Native
 
 if __name__ == "__main__":
 
-        # Parse the command line options
+    # Parse the command line options
     parser = OptionParser()
     parser.add_option("--rendezvous_file", type="string", dest="rendezvous_file",
                       help="the rendezvous file to restart")
