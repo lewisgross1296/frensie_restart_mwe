@@ -22,7 +22,9 @@ if __name__ == "__main__":
     parser = OptionParser()
     parser.add_option("--rendezvous_file", type="string", dest="rendezvous_file",
                       help="the rendezvous file to restart")
-    parser.add_option("--num_extra_particles", type="float", dest="num_extra_particles", default=1e3,
+    parser.add_option("--num_extra_particles", type="int", dest="num_extra_particles", default=1000,
+                      help="the number of additional particles to run")
+    parser.add_option("--wall_time", type="float", dest="wall_time", default=60,
                       help="the number of additional particles to run")
     parser.add_option("--threads", type="int", dest="threads", default=1,
                       help="the number of threads to use")
@@ -30,6 +32,7 @@ if __name__ == "__main__":
 
     rendezvous_file = options.rendezvous_file
     threads = options.threads
+    wall_time = options.wall_time
     num_extra_particles = options.num_extra_particles
 
 

@@ -728,7 +728,7 @@
 					<BaseType class_id="105" tracking_level="0" version="0">
 						<d_dispatcher_map class_id="106" tracking_level="0" version="0">
 							<count>0</count>
-							<bucket_count>1</bucket_count>
+							<bucket_count>2</bucket_count>
 							<item_version>0</item_version>
 						</d_dispatcher_map>
 					</BaseType>
@@ -739,7 +739,7 @@
 					<BaseType class_id="109" tracking_level="0" version="0">
 						<d_dispatcher_map class_id="110" tracking_level="0" version="0">
 							<count>1</count>
-							<bucket_count>3</bucket_count>
+							<bucket_count>5</bucket_count>
 							<item_version>0</item_version>
 							<item class_id="111" tracking_level="0" version="0">
 								<first>1</first>
@@ -1473,7 +1473,7 @@
 																			</d_estimator_total_bin_data>
 																			<d_entity_estimator_moments_map class_id="152" tracking_level="0" version="0">
 																				<count>1</count>
-																				<bucket_count>3</bucket_count>
+																				<bucket_count>5</bucket_count>
 																				<item_version>0</item_version>
 																				<item class_id="153" tracking_level="0" version="0">
 																					<first>1</first>
@@ -1549,7 +1549,7 @@
 																			</d_estimator_total_bin_data_snapshots>
 																			<d_entity_estimator_moments_snapshots_map class_id="162" tracking_level="0" version="0">
 																				<count>0</count>
-																				<bucket_count>1</bucket_count>
+																				<bucket_count>2</bucket_count>
 																				<item_version>0</item_version>
 																			</d_entity_estimator_moments_snapshots_map>
 																			<d_entity_bin_histograms_enabled>0</d_entity_bin_histograms_enabled>
@@ -1559,12 +1559,12 @@
 																			</d_estimator_total_bin_histograms>
 																			<d_entity_estimator_histograms_map class_id="164" tracking_level="0" version="0">
 																				<count>0</count>
-																				<bucket_count>1</bucket_count>
+																				<bucket_count>2</bucket_count>
 																				<item_version>0</item_version>
 																			</d_entity_estimator_histograms_map>
 																			<d_entity_norm_constants_map class_id="165" tracking_level="0" version="0">
 																				<count>1</count>
-																				<bucket_count>3</bucket_count>
+																				<bucket_count>5</bucket_count>
 																				<item_version>0</item_version>
 																				<item class_id="166" tracking_level="0" version="0">
 																					<first>1</first>
@@ -1603,7 +1603,7 @@
 																		</d_total_estimator_moments>
 																		<d_entity_total_estimator_moments_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item>
 																				<first>1</first>
@@ -1702,7 +1702,7 @@
 																		</d_total_estimator_moment_snapshots>
 																		<d_entity_total_estimator_moment_snapshots_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item class_id="167" tracking_level="0" version="0">
 																				<first>1</first>
@@ -2389,7 +2389,7 @@
 																		</d_total_estimator_histograms>
 																		<d_entity_total_estimator_histograms_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item class_id="169" tracking_level="0" version="0">
 																				<first>1</first>
@@ -3128,7 +3128,7 @@
 																			</d_estimator_total_bin_data>
 																			<d_entity_estimator_moments_map>
 																				<count>1</count>
-																				<bucket_count>3</bucket_count>
+																				<bucket_count>5</bucket_count>
 																				<item_version>0</item_version>
 																				<item>
 																					<first>1</first>
@@ -3204,7 +3204,7 @@
 																			</d_estimator_total_bin_data_snapshots>
 																			<d_entity_estimator_moments_snapshots_map>
 																				<count>0</count>
-																				<bucket_count>1</bucket_count>
+																				<bucket_count>2</bucket_count>
 																				<item_version>0</item_version>
 																			</d_entity_estimator_moments_snapshots_map>
 																			<d_entity_bin_histograms_enabled>0</d_entity_bin_histograms_enabled>
@@ -3214,12 +3214,12 @@
 																			</d_estimator_total_bin_histograms>
 																			<d_entity_estimator_histograms_map>
 																				<count>0</count>
-																				<bucket_count>1</bucket_count>
+																				<bucket_count>2</bucket_count>
 																				<item_version>0</item_version>
 																			</d_entity_estimator_histograms_map>
 																			<d_entity_norm_constants_map>
 																				<count>1</count>
-																				<bucket_count>3</bucket_count>
+																				<bucket_count>5</bucket_count>
 																				<item_version>0</item_version>
 																				<item>
 																					<first>1</first>
@@ -3258,7 +3258,7 @@
 																		</d_total_estimator_moments>
 																		<d_entity_total_estimator_moments_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item>
 																				<first>1</first>
@@ -3357,7 +3357,7 @@
 																		</d_total_estimator_moment_snapshots>
 																		<d_entity_total_estimator_moment_snapshots_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item>
 																				<first>1</first>
@@ -4044,7 +4044,7 @@
 																		</d_total_estimator_histograms>
 																		<d_entity_total_estimator_histograms_map>
 																			<count>1</count>
-																			<bucket_count>3</bucket_count>
+																			<bucket_count>5</bucket_count>
 																			<item_version>0</item_version>
 																			<item>
 																				<first>1</first>
@@ -4689,7 +4689,7 @@
 					<BaseType class_id="174" tracking_level="0" version="0">
 						<d_dispatcher_map class_id="175" tracking_level="0" version="0">
 							<count>0</count>
-							<bucket_count>1</bucket_count>
+							<bucket_count>2</bucket_count>
 							<item_version>0</item_version>
 						</d_dispatcher_map>
 					</BaseType>
@@ -4700,7 +4700,7 @@
 					<BaseType class_id="178" tracking_level="0" version="0">
 						<d_dispatcher_map class_id="179" tracking_level="0" version="0">
 							<count>0</count>
-							<bucket_count>1</bucket_count>
+							<bucket_count>2</bucket_count>
 							<item_version>0</item_version>
 						</d_dispatcher_map>
 					</BaseType>
@@ -4711,7 +4711,7 @@
 					<BaseType class_id="182" tracking_level="0" version="0">
 						<d_dispatcher_map class_id="183" tracking_level="0" version="0">
 							<count>0</count>
-							<bucket_count>1</bucket_count>
+							<bucket_count>2</bucket_count>
 							<item_version>0</item_version>
 						</d_dispatcher_map>
 					</BaseType>
@@ -4742,7 +4742,7 @@
 					<ParticleHistorySimulationCompletionCriterion class_id="194" tracking_level="0" version="0">
 						<ParticleHistoryObserver></ParticleHistoryObserver>
 					</ParticleHistorySimulationCompletionCriterion>
-					<num_completed_histories>100</num_completed_histories>
+					<num_completed_histories>0</num_completed_histories>
 					<d_history_wall>100</d_history_wall>
 				</px>
 			</d_simulation_completion_criterion>
@@ -4750,24 +4750,24 @@
 			<elapsed_time>1.30942350719124079e-01</elapsed_time>
 			<d_estimators class_id="195" tracking_level="0" version="0">
 				<count>2</count>
-				<bucket_count>3</bucket_count>
+				<bucket_count>5</bucket_count>
 				<item_version>0</item_version>
 				<item class_id="196" tracking_level="0" version="0">
-					<first>2</first>
+					<first>1</first>
 					<second class_id="197" tracking_level="0" version="1">
-						<px class_id_reference="171" object_id_reference="_75"></px>
+						<px class_id_reference="119" object_id_reference="_48"></px>
 					</second>
 				</item>
 				<item>
-					<first>1</first>
+					<first>2</first>
 					<second>
-						<px class_id_reference="119" object_id_reference="_48"></px>
+						<px class_id_reference="171" object_id_reference="_75"></px>
 					</second>
 				</item>
 			</d_estimators>
 			<d_particle_trackers class_id="198" tracking_level="0" version="0">
 				<count>0</count>
-				<bucket_count>1</bucket_count>
+				<bucket_count>2</bucket_count>
 				<item_version>0</item_version>
 			</d_particle_trackers>
 			<d_particle_history_observers class_id="199" tracking_level="0" version="0">
@@ -4810,7 +4810,7 @@
 		<px class_id_reference="38" object_id_reference="_9"></px>
 	</d_properties>
 	<d_next_history>100</d_next_history>
-	<d_rendezvous_number>3</d_rendezvous_number>
+	<d_rendezvous_number>4</d_rendezvous_number>
 	<d_use_single_rendezvous_file>0</d_use_single_rendezvous_file>
 </manager>
 </boost_serialization>
