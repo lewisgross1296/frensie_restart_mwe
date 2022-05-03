@@ -24,7 +24,7 @@ sim_name = "sphere"
 db_path = "/home/software/mcnpdata/database.xml" 
 
 # num_particles is of type float
-num_particles = float(100)
+num_particles = float(1000)
 
 # source_energy in MeV 
 source_energy = float(1)
@@ -36,10 +36,15 @@ energy_bins = [0,0.5,1]
 threads = int(4)
 
 # history number to start at
-history_N = int(10)
+history_N = int(10000)
 
 # not sure if we need
 log_file = None 
+
+# Initialize RNG to start at history N
+generator = Prng.RandomNumberGenerator
+generator.createStreams()
+generator.initialize(history_N)
 
 ##---------------------------------------------------------------------------##
 ## Initialize the MPI Session
@@ -54,14 +59,6 @@ if not log_file is None:
     session.initializeLogs( log_file, 0, True )
 
 ##---------------------------------------------------------------------------##
-## Initialize RNG to start at history N
-##---------------------------------------------------------------------------##
-# TODO where to put this and how to make sure simulation uses this
-generator = Prng.RandomNumberGenerator
-generator.createStreams()
-generator.initialize(history_N)
-
-##---------------------------------------------------------------------------##
 ## Set the simulation properties
 ##---------------------------------------------------------------------------##
 simulation_properties = MonteCarlo.SimulationProperties()
@@ -73,7 +70,7 @@ simulation_properties.setUnresolvedResonanceProbabilityTableModeOff()
 # Set the number of histories to run and the number of rendezvous
 simulation_properties.setNumberOfHistories( num_particles )
 simulation_properties.setMinNumberOfRendezvous( 2 )
-simulation_properties.setMaxRendezvousBatchSize( 50 )
+# simulation_properties.setMaxRendezvousBatchSize( 50 )
 
 ##---------------------------------------------------------------------------##
 ## Set up the materials

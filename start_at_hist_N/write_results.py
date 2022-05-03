@@ -43,5 +43,6 @@ file.write("energy bin upper bound" +  ", " + "current mean" + ", " + "current R
 for i in range(0,len(current_bin_data["mean"])):
     file.write(str(current_bin_data["e_bins"][i+1]) +  ", " + str(current_bin_data["mean"][i]) + ", " + str(current_bin_data["re"][i]) + "\n" )
 file.write("flux results" + "\n" )
+file.write("energy bin upper bound" +  ", " + "flux mean" + ", " + "flux RE " + "\n" )
 for i in range(0,len(flux_bin_data["mean"])):
     file.write(str(flux_bin_data["e_bins"][i+1]) +  ", " + str(flux_bin_data["mean"][i]) + ", " + str(flux_bin_data["re"][i]) + "\n" )
