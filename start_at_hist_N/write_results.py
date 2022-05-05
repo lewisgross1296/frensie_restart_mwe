@@ -34,8 +34,6 @@ flux = manager.getEventHandler().getEstimator ( 2 ) # flux is estimator 2 as dec
 flux_bin_data = flux.getEntityBinProcessedData( 1 ) # entity ID is 1 since sphere surface is first volume
 flux_bin_data["e_bins"] = flux.getEnergyDiscretization()
 
-
-
 file_name = "sphere_results_"
 file = open(file_name + options.NPS  + ".csv","w+")
 file.write("current results" + "\n" )

@@ -24,7 +24,7 @@ sim_name = "sphere"
 db_path = "/home/software/mcnpdata/database.xml" 
 
 # num_particles is of type float
-num_particles = float(1000)
+num_particles = float(1)
 
 # source_energy in MeV 
 source_energy = float(1)
@@ -36,15 +36,10 @@ energy_bins = [0,0.5,1]
 threads = int(4)
 
 # history number to start at
-history_N = int(10000)
+history_N = int(0)
 
 # not sure if we need
 log_file = None 
-
-# Initialize RNG to start at history N
-generator = Prng.RandomNumberGenerator
-generator.createStreams()
-generator.initialize(history_N)
 
 ##---------------------------------------------------------------------------##
 ## Initialize the MPI Session
@@ -69,7 +64,7 @@ simulation_properties.setUnresolvedResonanceProbabilityTableModeOff()
 
 # Set the number of histories to run and the number of rendezvous
 simulation_properties.setNumberOfHistories( num_particles )
-simulation_properties.setMinNumberOfRendezvous( 2 )
+# simulation_properties.setMinNumberOfRendezvous( 2 )
 # simulation_properties.setMaxRendezvousBatchSize( 50 )
 
 ##---------------------------------------------------------------------------##
@@ -154,14 +149,24 @@ factory = Manager.ParticleSimulationManagerFactory( filled_model,
                                                     "xml",
                                                     threads )
 
+
+# TODO once constructor with start_at_N works, add to above
 # Create the simulation manager
 manager = factory.getManager()
 
+# Initialize RNG to start at history N
+# This does work, but the runInterruptibleSimulation() resets to zero and launches
+# in batches at the correct histories so each processor handles a separate set of them
+Prng.RandomNumberGenerator.initialize(history_N)
+print(Prng.RandomNumberGenerator.getRandomNumber())
+
 # Turn on multiple rendezvous files
 manager.useMultipleRendezvousFiles()
+print(Prng.RandomNumberGenerator.getRandomNumber())
 
 # Allow logging on all procs
 session.restoreOutputStreams()
+print(Prng.RandomNumberGenerator.getRandomNumber())
 
 ##---------------------------------------------------------------------------##
 ## Run the simulation
