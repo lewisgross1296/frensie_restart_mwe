@@ -36,7 +36,7 @@ energy_bins = [0,0.5,1]
 threads = int(4)
 
 # history number to start at
-history_N = int(0)
+history_N = int(10)
 
 # not sure if we need
 log_file = None 
@@ -141,32 +141,29 @@ event_handler.getEstimator( 2 ).setEnergyDiscretization( energy_bins )
 ##---------------------------------------------------------------------------##
 # The factory will use the simulation properties and the MPI session
 # properties to determine the appropriate simulation manager to construct
+# Use start at N constructor
 factory = Manager.ParticleSimulationManagerFactory( filled_model,
                                                     source,
                                                     event_handler,
                                                     simulation_properties,
                                                     sim_name,
+                                                    history_N,
                                                     "xml",
                                                     threads )
 
 
-# TODO once constructor with start_at_N works, add to above
 # Create the simulation manager
 manager = factory.getManager()
 
 # Initialize RNG to start at history N
 # This does work, but the runInterruptibleSimulation() resets to zero and launches
 # in batches at the correct histories so each processor handles a separate set of them
-Prng.RandomNumberGenerator.initialize(history_N)
-print(Prng.RandomNumberGenerator.getRandomNumber())
 
 # Turn on multiple rendezvous files
 manager.useMultipleRendezvousFiles()
-print(Prng.RandomNumberGenerator.getRandomNumber())
 
 # Allow logging on all procs
 session.restoreOutputStreams()
-print(Prng.RandomNumberGenerator.getRandomNumber())
 
 ##---------------------------------------------------------------------------##
 ## Run the simulation
