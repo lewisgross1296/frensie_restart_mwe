@@ -21,7 +21,7 @@ import PyFrensie.Data.Native as Native
 sim_name = "sphere"
 
 # db_path is of type string
-db_path = "/home/software/mcnpdata/database.xml" 
+db_path = "/home/simulator/data/mcnpdata/database.xml" 
 
 # num_particles is of type float
 num_particles = float(1)
