@@ -146,8 +146,8 @@ factory = Manager.ParticleSimulationManagerFactory( filled_model,
                                                     source,
                                                     event_handler,
                                                     simulation_properties,
-                                                    sim_name,
                                                     history_N,
+                                                    sim_name,
                                                     "xml",
                                                     threads )
 
